@@ -29,6 +29,17 @@
       "owner": "unknown",
       "created_at": "2026-05-06T20:23:23.794493+00:00",
       "initiative": "writing-skill"
+    },
+    "feat/helper-scripts-tests": {
+      "intent": "Implement deterministic helper scripts for workspace initialization, profile/config validation, name normalization, privacy-risk warnings, fixtures, and test checks.",
+      "modules": [
+        "tests/fixtures",
+        "tests",
+        "skill/writing-style/scripts"
+      ],
+      "owner": "unknown",
+      "created_at": "2026-05-06T20:31:02.365050+00:00",
+      "initiative": "writing-skill"
     }
   }
 }
