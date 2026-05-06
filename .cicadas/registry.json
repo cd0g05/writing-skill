@@ -19,6 +19,16 @@
       "owner": "unknown",
       "created_at": "2026-05-06T20:01:37.727856+00:00",
       "initiative": "writing-skill"
+    },
+    "feat/core-skill-workflow": {
+      "intent": "Implement the complete writing-style skill workflow for profile creation, sanitization, calibration, saving, forking, invocation, settings changes, neutral prompts, and feedback rubric.",
+      "modules": [
+        "skill/writing-style/SKILL.md",
+        "skill/writing-style/prompts"
+      ],
+      "owner": "unknown",
+      "created_at": "2026-05-06T20:23:23.794493+00:00",
+      "initiative": "writing-skill"
     }
   }
 }

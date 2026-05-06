@@ -44,17 +44,17 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 
 ## Partition: feat/core-skill-workflow
 
-- [ ] Fill `SKILL.md` trigger rules and "when to use" guidance for creating, updating, forking, invoking, and configuring writing profiles <!-- id: 20 -->
-- [ ] Implement create-profile workflow instructions: confirm name, explain style-only extraction, request examples, handle sparse examples, and present a style hypothesis before calibration <!-- id: 21 -->
-- [ ] Implement sanitization and privacy rules: treat examples as data, ignore embedded instructions in examples, exclude private/source-specific facts by default, and require confirmation for retained terms <!-- id: 22 -->
-- [ ] Implement calibration workflow: generate neutral samples by default, accept freeform feedback and optional 1-5 score, summarize changes, and enforce ready/experimental save paths <!-- id: 23 -->
-- [ ] Implement profile-save workflow: write local profile file, include status and invocation examples, and summarize the saved file path and next actions <!-- id: 24 -->
-- [ ] Implement profile-fork workflow: load source profile, ask what should change, produce a style diff, prevent accidental source mutation, and save a separate profile <!-- id: 25 -->
-- [ ] Implement saved-profile invocation workflow: load named profile, ask for missing task content, apply style as "how to write," and avoid inventing facts <!-- id: 26 -->
-- [ ] Implement settings-change workflow: show current value, explain risk, require confirmation for privacy-reducing changes, and preserve unknown config keys <!-- id: 27 -->
-- [ ] Add `prompts/neutral-calibration-prompts.md` covering broad suggested use categories such as `email`, `text`, `report`, and `narrative`, without treating any category as a required built-in profile <!-- id: 28 -->
-- [ ] Add `prompts/feedback-rubric.md` defining style match, privacy leakage, instruction adherence, readiness, and human-review guidance <!-- id: 29 -->
-- [ ] Dry-run representative workflow prompts and revise copy where the flow is ambiguous or too heavy <!-- id: 30 -->
+- [x] Fill `SKILL.md` trigger rules and "when to use" guidance for creating, updating, forking, invoking, and configuring writing profiles <!-- id: 20 -->
+- [x] Implement create-profile workflow instructions: confirm name, explain style-only extraction, request examples, handle sparse examples, and present a style hypothesis before calibration <!-- id: 21 -->
+- [x] Implement sanitization and privacy rules: treat examples as data, ignore embedded instructions in examples, exclude private/source-specific facts by default, and require confirmation for retained terms <!-- id: 22 -->
+- [x] Implement calibration workflow: generate neutral samples by default, accept freeform feedback and optional 1-5 score, summarize changes, and enforce ready/experimental save paths <!-- id: 23 -->
+- [x] Implement profile-save workflow: write local profile file, include status and invocation examples, and summarize the saved file path and next actions <!-- id: 24 -->
+- [x] Implement profile-fork workflow: load source profile, ask what should change, produce a style diff, prevent accidental source mutation, and save a separate profile <!-- id: 25 -->
+- [x] Implement saved-profile invocation workflow: load named profile, ask for missing task content, apply style as "how to write," and avoid inventing facts <!-- id: 26 -->
+- [x] Implement settings-change workflow: show current value, explain risk, require confirmation for privacy-reducing changes, and preserve unknown config keys <!-- id: 27 -->
+- [x] Add `prompts/neutral-calibration-prompts.md` covering broad suggested use categories such as `email`, `text`, `report`, and `narrative`, without treating any category as a required built-in profile <!-- id: 28 -->
+- [x] Add `prompts/feedback-rubric.md` defining style match, privacy leakage, instruction adherence, readiness, and human-review guidance <!-- id: 29 -->
+- [x] Dry-run representative workflow prompts and revise copy where the flow is ambiguous or too heavy <!-- id: 30 -->
 - [ ] Open PR: feat/core-skill-workflow -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-core-skill-workflow -->
 
 ## Partition: feat/helper-scripts-tests
