@@ -40,6 +40,16 @@
       "owner": "unknown",
       "created_at": "2026-05-06T20:31:02.365050+00:00",
       "initiative": "writing-skill"
+    },
+    "feat/eval-assets-cases": {
+      "intent": "Create local eval spec copy, manifest, and representative eval cases for style match, privacy leakage, invocation, persistence, and inheritance.",
+      "modules": [
+        "skill/writing-style/evals",
+        "skill/writing-style/prompts/feedback-rubric.md"
+      ],
+      "owner": "unknown",
+      "created_at": "2026-05-06T21:09:22.388227+00:00",
+      "initiative": "writing-skill"
     }
   }
 }
