@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "profile_directory": "writing-skill-data/profiles",
+  "session_directory": "writing-skill-data/sessions",
+  "eval_run_directory": "writing-skill-data/eval-runs",
+  "sanitization": {
+    "enabled": true,
+    "require_confirmation_to_disable": true,
+    "require_confirmation_for_source_terms": true
+  },
+  "calibration": {
+    "default_prompt_mode": "neutral",
+    "allow_custom_prompts": true,
+    "save_custom_prompts_by_default": false,
+    "readiness": {
+      "minimum_consecutive_passes": 2,
+      "passing_numeric_score": 4
+    }
+  },
+  "profiles": {
+    "default_status": "draft",
+    "allow_inheritance": true,
+    "name_format": "kebab-case"
+  }
+}
