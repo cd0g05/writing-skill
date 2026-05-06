@@ -55,19 +55,19 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 - [x] Add `prompts/neutral-calibration-prompts.md` covering broad suggested use categories such as `email`, `text`, `report`, and `narrative`, without treating any category as a required built-in profile <!-- id: 28 -->
 - [x] Add `prompts/feedback-rubric.md` defining style match, privacy leakage, instruction adherence, readiness, and human-review guidance <!-- id: 29 -->
 - [x] Dry-run representative workflow prompts and revise copy where the flow is ambiguous or too heavy <!-- id: 30 -->
-- [ ] Open PR: feat/core-skill-workflow -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-core-skill-workflow -->
+- [x] Open PR: feat/core-skill-workflow -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-core-skill-workflow -->
 
 ## Partition: feat/helper-scripts-tests
 
-- [ ] Implement `skill/writing-style/scripts/init_workspace.py` to create default data folders and config without overwriting existing files by default <!-- id: 40 -->
-- [ ] Implement profile-name normalization helper with lowercase kebab-case recommendations and clear validation errors <!-- id: 41 -->
-- [ ] Implement config loading/default-merge helper that preserves unknown keys while applying missing defaults <!-- id: 42 -->
-- [ ] Implement `skill/writing-style/scripts/validate_profile.py` to check required front matter fields, status values, and Markdown headings <!-- id: 43 -->
-- [ ] Add optional privacy-risk scan mode that flags known disallowed terms and warns that scanning is heuristic rather than complete <!-- id: 44 -->
-- [ ] Add valid and invalid profile fixtures under `tests/fixtures/` <!-- id: 45 -->
-- [ ] Add tests or deterministic script checks for workspace init, profile validation success/failure, config merge behavior, and privacy-risk warnings <!-- id: 46 -->
-- [ ] Verify helper scripts use stable exit codes: `0` success, `1` validation failure, `2` file/system failure <!-- id: 47 -->
-- [ ] Run helper validation/test command(s) and record results in Reflect notes before PR <!-- id: 48 -->
+- [x] Implement `skill/writing-style/scripts/init_workspace.py` to create default data folders and config without overwriting existing files by default <!-- id: 40 -->
+- [x] Implement profile-name normalization helper with lowercase kebab-case recommendations and clear validation errors <!-- id: 41 -->
+- [x] Implement config loading/default-merge helper that preserves unknown keys while applying missing defaults <!-- id: 42 -->
+- [x] Implement `skill/writing-style/scripts/validate_profile.py` to check required front matter fields, status values, and Markdown headings <!-- id: 43 -->
+- [x] Add optional privacy-risk scan mode that flags known disallowed terms and warns that scanning is heuristic rather than complete <!-- id: 44 -->
+- [x] Add valid and invalid profile fixtures under `tests/fixtures/` <!-- id: 45 -->
+- [x] Add tests or deterministic script checks for workspace init, profile validation success/failure, config merge behavior, and privacy-risk warnings <!-- id: 46 -->
+- [x] Verify helper scripts use stable exit codes: `0` success, `1` validation failure, `2` file/system failure <!-- id: 47 -->
+- [x] Run helper validation/test command(s) and record results in Reflect notes before PR <!-- id: 48 -->
 - [ ] Open PR: feat/helper-scripts-tests -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-helper-scripts-tests -->
 
 ## Partition: feat/eval-assets-cases

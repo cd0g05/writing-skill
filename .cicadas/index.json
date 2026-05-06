@@ -7,6 +7,13 @@
       "summary": "Completed writing-style skill scaffold, artifact templates, conservative config defaults, and metadata alignment.",
       "decisions": "",
       "modules": []
+    },
+    {
+      "timestamp": "2026-05-06T20:30:49.562825+00:00",
+      "branch": "feat/core-skill-workflow",
+      "summary": "Completed Writing Style workflow instructions, neutral calibration prompt bank, and feedback rubric.",
+      "decisions": "",
+      "modules": []
     }
   ]
 }
