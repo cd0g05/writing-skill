@@ -55,7 +55,7 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 - [x] Add `prompts/neutral-calibration-prompts.md` covering broad suggested use categories such as `email`, `text`, `report`, and `narrative`, without treating any category as a required built-in profile <!-- id: 28 -->
 - [x] Add `prompts/feedback-rubric.md` defining style match, privacy leakage, instruction adherence, readiness, and human-review guidance <!-- id: 29 -->
 - [x] Dry-run representative workflow prompts and revise copy where the flow is ambiguous or too heavy <!-- id: 30 -->
-- [ ] Open PR: feat/core-skill-workflow -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-core-skill-workflow -->
+- [x] Open PR: feat/core-skill-workflow -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-core-skill-workflow -->
 
 ## Partition: feat/helper-scripts-tests
 
