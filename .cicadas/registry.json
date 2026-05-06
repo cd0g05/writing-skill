@@ -8,5 +8,17 @@
       "created_at": "2026-05-06T19:50:40.282341+00:00"
     }
   },
-  "branches": {}
+  "branches": {
+    "feat/skill-scaffold-schemas": {
+      "intent": "Create the portable writing-style skill scaffold, baseline SKILL.md shell, artifact templates, conservative config defaults, and metadata alignment.",
+      "modules": [
+        "skill/writing-style/templates",
+        "pyproject.toml",
+        "skill/writing-style"
+      ],
+      "owner": "unknown",
+      "created_at": "2026-05-06T20:01:37.727856+00:00",
+      "initiative": "writing-skill"
+    }
+  }
 }

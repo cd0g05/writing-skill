@@ -32,14 +32,14 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 
 ## Partition: feat/skill-scaffold-schemas
 
-- [ ] Create `skill/writing-style/` with `templates/`, `prompts/`, `scripts/`, and `evals/cases/` subdirectories <!-- id: 1 -->
-- [ ] Add `skill/writing-style/SKILL.md` with valid skill front matter, concise trigger description, and placeholder sections for workflow, privacy, settings, and eval guidance <!-- id: 2 -->
-- [ ] Add `skill/writing-style/templates/profile.md` with required YAML front matter and profile body headings from Tech Design <!-- id: 3 -->
-- [ ] Add `skill/writing-style/templates/config.json` with conservative defaults for sanitization, neutral prompts, custom prompt persistence, readiness criteria, and profile naming <!-- id: 4 -->
-- [ ] Add `skill/writing-style/templates/calibration-session.md` with source summary, sanitization notes, style hypothesis, calibration rounds, and pending decisions sections <!-- id: 5 -->
-- [ ] Add `skill/writing-style/templates/eval-case.md` with eval case front matter and required rubric sections <!-- id: 6 -->
-- [ ] Update project metadata or README stub only as needed to describe the repository as a portable writing skill package <!-- id: 7 -->
-- [ ] Verify no database, web framework, remote persistence dependency, or unrelated runtime dependency was introduced <!-- id: 8 -->
+- [x] Create `skill/writing-style/` with `templates/`, `prompts/`, `scripts/`, and `evals/cases/` subdirectories <!-- id: 1 -->
+- [x] Add `skill/writing-style/SKILL.md` with valid skill front matter, concise trigger description, and placeholder sections for workflow, privacy, settings, and eval guidance <!-- id: 2 -->
+- [x] Add `skill/writing-style/templates/profile.md` with required YAML front matter and profile body headings from Tech Design <!-- id: 3 -->
+- [x] Add `skill/writing-style/templates/config.json` with conservative defaults for sanitization, neutral prompts, custom prompt persistence, readiness criteria, and profile naming <!-- id: 4 -->
+- [x] Add `skill/writing-style/templates/calibration-session.md` with source summary, sanitization notes, style hypothesis, calibration rounds, and pending decisions sections <!-- id: 5 -->
+- [x] Add `skill/writing-style/templates/eval-case.md` with eval case front matter and required rubric sections <!-- id: 6 -->
+- [x] Update project metadata or README stub only as needed to describe the repository as a portable writing skill package <!-- id: 7 -->
+- [x] Verify no database, web framework, remote persistence dependency, or unrelated runtime dependency was introduced <!-- id: 8 -->
 - [ ] Open PR: feat/skill-scaffold-schemas -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-skill-scaffold-schemas -->
 
 ## Partition: feat/core-skill-workflow
