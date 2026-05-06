@@ -14,6 +14,13 @@
       "summary": "Completed Writing Style workflow instructions, neutral calibration prompt bank, and feedback rubric.",
       "decisions": "",
       "modules": []
+    },
+    {
+      "timestamp": "2026-05-06T21:09:10.379797+00:00",
+      "branch": "feat/helper-scripts-tests",
+      "summary": "Completed Writing Style helper scripts, fixtures, privacy scan, and unittest coverage.",
+      "decisions": "",
+      "modules": []
     }
   ]
 }

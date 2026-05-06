@@ -68,7 +68,7 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 - [x] Add tests or deterministic script checks for workspace init, profile validation success/failure, config merge behavior, and privacy-risk warnings <!-- id: 46 -->
 - [x] Verify helper scripts use stable exit codes: `0` success, `1` validation failure, `2` file/system failure <!-- id: 47 -->
 - [x] Run helper validation/test command(s) and record results in Reflect notes before PR <!-- id: 48 -->
-- [ ] Open PR: feat/helper-scripts-tests -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-helper-scripts-tests -->
+- [x] Open PR: feat/helper-scripts-tests -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-helper-scripts-tests -->
 
 ## Partition: feat/eval-assets-cases
 
