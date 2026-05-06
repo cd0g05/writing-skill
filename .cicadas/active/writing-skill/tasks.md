@@ -40,7 +40,7 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 - [x] Add `skill/writing-style/templates/eval-case.md` with eval case front matter and required rubric sections <!-- id: 6 -->
 - [x] Update project metadata or README stub only as needed to describe the repository as a portable writing skill package <!-- id: 7 -->
 - [x] Verify no database, web framework, remote persistence dependency, or unrelated runtime dependency was introduced <!-- id: 8 -->
-- [ ] Open PR: feat/skill-scaffold-schemas -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-skill-scaffold-schemas -->
+- [x] Open PR: feat/skill-scaffold-schemas -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-skill-scaffold-schemas -->
 
 ## Partition: feat/core-skill-workflow
 
