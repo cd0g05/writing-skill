@@ -84,14 +84,14 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 
 ## Partition: feat/docs-final-validation
 
-- [ ] Update top-level `README.md` with product overview, repository structure, local profile/config storage model, and quick-start examples <!-- id: 80 -->
-- [ ] Add `skill/writing-style/README.md` with install/use examples, profile invocation examples, settings notes, and privacy expectations <!-- id: 81 -->
-- [ ] Run helper validation/test commands and capture results for review <!-- id: 82 -->
-- [ ] Dry-run create-profile, fork-profile, invoke-profile, settings-change, and privacy-confirmation workflows; note any manual review findings <!-- id: 83 -->
-- [ ] Review eval assets for blocking findings and Reflect any product/design/task changes before completion <!-- id: 84 -->
-- [ ] Confirm `SKILL.md` trigger description is neither too broad nor too narrow using representative user requests <!-- id: 85 -->
-- [ ] Ensure bundled templates, prompts, scripts, eval assets, and docs agree on file paths, profile schema, readiness rules, and privacy defaults <!-- id: 86 -->
-- [ ] Run final Code Review for the feature branch and address blocking findings before PR <!-- id: 87 -->
+- [x] Update top-level `README.md` with product overview, repository structure, local profile/config storage model, and quick-start examples <!-- id: 80 -->
+- [x] Add `skill/writing-style/README.md` with install/use examples, profile invocation examples, settings notes, and privacy expectations <!-- id: 81 -->
+- [x] Run helper validation/test commands and capture results for review <!-- id: 82 -->
+- [x] Dry-run create-profile, fork-profile, invoke-profile, settings-change, and privacy-confirmation workflows; note any manual review findings <!-- id: 83 -->
+- [x] Review eval assets for blocking findings and Reflect any product/design/task changes before completion <!-- id: 84 -->
+- [x] Confirm `SKILL.md` trigger description is neither too broad nor too narrow using representative user requests <!-- id: 85 -->
+- [x] Ensure bundled templates, prompts, scripts, eval assets, and docs agree on file paths, profile schema, readiness rules, and privacy defaults <!-- id: 86 -->
+- [x] Run final Code Review for the feature branch and address blocking findings before PR <!-- id: 87 -->
 - [ ] Open PR: feat/docs-final-validation -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-docs-final-validation -->
 
 ## Initiative Boundary
