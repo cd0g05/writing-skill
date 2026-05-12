@@ -80,7 +80,7 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 - [x] Add profile inheritance eval cases such as `email-professional` to `email-neutral` <!-- id: 65 -->
 - [x] Ensure each eval case includes user prompt, expected style signals, must-not-include terms, rubric, and passing criteria <!-- id: 66 -->
 - [x] Review eval cases against PRD, UX, and Tech Design and flag any required spec or implementation changes before final validation <!-- id: 67 -->
-- [ ] Open PR: feat/eval-assets-cases -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-eval-assets-cases -->
+- [x] Open PR: feat/eval-assets-cases -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-eval-assets-cases -->
 
 ## Partition: feat/docs-final-validation
 
