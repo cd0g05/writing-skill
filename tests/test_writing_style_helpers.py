@@ -28,6 +28,7 @@ class WritingStyleHelperTests(unittest.TestCase):
             loaded = load_config(config)
 
         self.assertEqual(loaded["custom_key"], {"kept": True})
+        self.assertEqual(loaded["bundled_profile_directory"], "profiles")
         self.assertIs(loaded["sanitization"]["enabled"], True)
         self.assertEqual(loaded["profiles"]["name_format"], "kebab-case")
 

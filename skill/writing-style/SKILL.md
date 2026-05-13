@@ -37,12 +37,24 @@ Bundled templates live beside this file:
 - `templates/calibration-session.md`
 - `templates/eval-case.md`
 
+Bundled portable profiles may also live beside this file:
+
+- `profiles/{profile-name}.md`
+
 Default user data lives under `writing-skill-data/` unless config says otherwise:
 
 - `config.json`
 - `profiles/{profile-name}.md`
 - `sessions/{profile-name}-{timestamp}.md`
 - `eval-runs/`
+
+When loading a named profile, use this lookup order:
+
+1. Bundled skill profile: `profiles/{profile-name}.md`.
+2. Configured local profile directory, usually `writing-skill-data/profiles/{profile-name}.md`.
+3. If neither is available, ask the user to paste, upload, or attach the profile file.
+
+When listing profiles, include both bundled and local profiles when the host exposes those files. Label where each profile came from.
 
 Before writing or changing a durable artifact, summarize the intended file path and behavioral effect. After writing, summarize what changed and how the user can invoke or continue it.
 
@@ -119,6 +131,15 @@ Create or update a Markdown profile using `templates/profile.md`. Include:
 
 When updating an existing profile, preserve previous content unless the user explicitly asks to replace it. Add a change note summarizing meaningful changes.
 
+After creating or updating a profile, give medium-specific persistence instructions:
+
+- **Local Codex / filesystem agents:** save or update `writing-skill-data/profiles/{profile-name}.md`, or copy the approved profile into bundled `profiles/{profile-name}.md` if the user wants the profile to travel with the skill.
+- **Claude web / Claude Projects:** provide the completed profile as a Markdown artifact or code block and tell the user to add it to the Project knowledge/files as `profiles/{profile-name}.md`. If their Claude setup requires uploading a zipped skill/project folder, tell them to replace or add the file in `profiles/`, zip the skill folder again, and re-upload it.
+- **ChatGPT Projects / Custom GPTs:** provide the completed profile as a Markdown file or code block and tell the user to add it to the Project files or Custom GPT knowledge as `profiles/{profile-name}.md`. If updating a packaged skill, tell them to replace or add the file in `profiles/` and re-upload the package.
+- **Unknown host:** explain both options: keep the profile in the local data directory for filesystem-based agents, or bundle it under the skill's `profiles/` directory and re-upload/reinstall the skill for web-hosted agents.
+
+If the current host cannot write persistent skill files, do not imply that the profile was saved permanently. Say that the profile has been generated and needs to be added to the skill/project files for future chats.
+
 ## Fork Profile Flow
 
 When the user creates a profile from an existing one:
@@ -136,7 +157,7 @@ Never mutate the source profile during a fork unless the user explicitly asks to
 
 When the user asks to write or rewrite using a saved profile:
 
-1. Load the named profile, or ask the user to choose from matching profiles.
+1. Load the named profile using the lookup order in Local Artifacts, or ask the user to choose from matching profiles.
 2. If the profile is `draft` or `experimental`, mention that it is not fully calibrated.
 3. Ask for missing task content. Do not invent facts, claims, recipients, constraints, or source material.
 4. Apply the profile as "how to write" and the user's request as "what to write."

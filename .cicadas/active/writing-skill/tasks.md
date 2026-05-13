@@ -92,7 +92,14 @@ next_section: "## Partition: feat/skill-scaffold-schemas"
 - [x] Confirm `SKILL.md` trigger description is neither too broad nor too narrow using representative user requests <!-- id: 85 -->
 - [x] Ensure bundled templates, prompts, scripts, eval assets, and docs agree on file paths, profile schema, readiness rules, and privacy defaults <!-- id: 86 -->
 - [x] Run final Code Review for the feature branch and address blocking findings before PR <!-- id: 87 -->
-- [ ] Open PR: feat/docs-final-validation -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-docs-final-validation -->
+- [x] Open PR: feat/docs-final-validation -> initiative/writing-skill and await merge approval before continuing <!-- id: PR-feature-docs-final-validation -->
+
+## Follow-up: feat/bundled-profile-portability
+
+- [x] Add bundled `profiles/` directory guidance for portable web-hosted profile storage <!-- id: 110 -->
+- [x] Update `SKILL.md` profile lookup order to check bundled profiles, then local profile directory, then user-provided profile content <!-- id: 111 -->
+- [x] Add medium-specific save/reupload instructions for Claude web, Claude Projects, ChatGPT Projects, Custom GPTs, local Codex, and unknown hosts <!-- id: 112 -->
+- [x] Update README/config/helper defaults so bundled profile storage is visible and test-covered <!-- id: 113 -->
 
 ## Initiative Boundary
 

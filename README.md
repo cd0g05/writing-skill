@@ -53,6 +53,14 @@ writing-skill-data/
 
 The default config keeps sanitization enabled, uses neutral calibration prompts, does not persist custom prompts by default, and requires two consecutive acceptable calibration outputs before a profile is considered ready.
 
+Profiles that need to travel with the skill can be bundled directly inside:
+
+```text
+skill/writing-style/profiles/{profile-name}.md
+```
+
+This is the preferred approach for web-hosted Claude or ChatGPT use, where future chats can read uploaded skill/project files but may not have access to a local filesystem directory.
+
 ## Quick Start
 
 Initialize a local data workspace:
@@ -80,6 +88,8 @@ Create a writing style called email-professional from these examples.
 Use profile email-professional to rewrite this draft without adding facts.
 Create email-neutral from email-professional, but make it shorter and less formal.
 ```
+
+For web-hosted use, add generated profile files to the skill or project files as `profiles/{profile-name}.md`. For local Codex use, keep fast-changing profiles in `writing-skill-data/profiles/` or copy approved profiles into `skill/writing-style/profiles/` when you want them bundled with the skill.
 
 ## Privacy Expectations
 
