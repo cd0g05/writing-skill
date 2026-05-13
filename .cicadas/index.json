@@ -28,6 +28,13 @@
       "summary": "Completed Writing Style eval spec, manifest, and 20 representative eval cases.",
       "decisions": "",
       "modules": []
+    },
+    {
+      "timestamp": "2026-05-13T20:29:27.831143+00:00",
+      "branch": "feat/docs-final-validation",
+      "summary": "Completed Writing Style docs, final validation, dry-run review, trigger check, and consistency review.",
+      "decisions": "",
+      "modules": []
     }
   ]
 }
