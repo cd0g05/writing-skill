@@ -61,6 +61,19 @@
       "owner": "unknown",
       "created_at": "2026-05-12T20:18:07.714184+00:00",
       "initiative": "writing-skill"
+    },
+    "feat/bundled-profile-portability": {
+      "intent": "Add bundled profile storage and lookup guidance for online ChatGPT, Claude web, local Codex, and other media so saved profiles can travel with the skill.",
+      "modules": [
+        "skill/writing-style/SKILL.md",
+        "skill/writing-style/profiles",
+        "skill/writing-style/templates/config.json",
+        "skill/writing-style/README.md",
+        "README.md"
+      ],
+      "owner": "unknown",
+      "created_at": "2026-05-13T20:29:46.973394+00:00",
+      "initiative": "writing-skill"
     }
   }
 }

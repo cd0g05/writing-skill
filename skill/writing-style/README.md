@@ -57,6 +57,58 @@ writing-skill-data/
 
 `init_workspace.py` does not overwrite an existing `config.json` unless `--force` is provided.
 
+## Bundled Profiles for Web Chats
+
+For online systems such as Claude web, Claude Projects, ChatGPT Projects, or Custom GPTs, profiles can travel with the skill by storing them inside the skill folder:
+
+```text
+profiles/
+├── professional-email.md
+└── casual-text.md
+```
+
+When the skill is invoked in a later chat, it should look for a named profile in this order:
+
+1. `profiles/{profile-name}.md` bundled with the skill.
+2. The configured local profile directory, usually `writing-skill-data/profiles/{profile-name}.md`.
+3. A pasted, uploaded, or attached profile supplied by the user.
+
+### Claude Web / Claude Projects
+
+After creating a profile, ask for the final Markdown profile and add it to the Claude Project knowledge/files as:
+
+```text
+profiles/professional-email.md
+```
+
+If the skill is managed as an uploaded folder or archive, add or replace that file inside the skill's `profiles/` directory, zip or package the skill again if needed, and re-upload it to Claude.
+
+### ChatGPT Projects / Custom GPTs
+
+Add the generated profile Markdown to the Project files or Custom GPT knowledge as:
+
+```text
+profiles/professional-email.md
+```
+
+If using a packaged skill folder, add or replace the profile under `profiles/`, then re-upload or reconnect the package so future chats can see it.
+
+### Local Codex / Filesystem Agents
+
+For local use, either keep profiles in:
+
+```text
+writing-skill-data/profiles/professional-email.md
+```
+
+or bundle reusable profiles directly into:
+
+```text
+skill/writing-style/profiles/professional-email.md
+```
+
+Bundled profiles are better for portability across web-hosted chats. Local data profiles are better for quick iteration on one machine.
+
 ## Profile Validation
 
 Validate structure:

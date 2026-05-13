@@ -11,6 +11,7 @@ from typing import Any
 
 DEFAULT_CONFIG: dict[str, Any] = {
     "version": 1,
+    "bundled_profile_directory": "profiles",
     "profile_directory": "writing-skill-data/profiles",
     "session_directory": "writing-skill-data/sessions",
     "eval_run_directory": "writing-skill-data/eval-runs",
