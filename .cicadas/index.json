@@ -21,6 +21,13 @@
       "summary": "Completed Writing Style helper scripts, fixtures, privacy scan, and unittest coverage.",
       "decisions": "",
       "modules": []
+    },
+    {
+      "timestamp": "2026-05-12T20:17:55.941168+00:00",
+      "branch": "feat/eval-assets-cases",
+      "summary": "Completed Writing Style eval spec, manifest, and 20 representative eval cases.",
+      "decisions": "",
+      "modules": []
     }
   ]
 }
